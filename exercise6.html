@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h1>HTML Tags for Form</h1>
+    <h3>Dumais,Ade Pricilia</h3>
+    <form  action="submission.html" method="POST">
+        <fieldset width=100px>
+            <legend>Formulir Calon Pegawai</legend>
+            <br>
+            <label for="name">Nama: </label>
+            <input type="text" name="name" /><br><br>
+            <label for="address">Alamat: </label>
+            <input type="text" name="address" /><br><br>
+            <label for="password">Password: </label>
+            <input type="text" name="password" /><br><br>
+
+            <section class="jenisKelamin">
+            <span>Jenis Kelamin : </span>
+            <input type="radio" name="laki-laki" id="laki-laki" value="laki-laki">
+            <label for="laki-laki">Laki-Laki</label>
+            <input type="radio" name="Wanita" id="Wanita" value="Wanita">
+            <label for="Wanita">Wanita</label><br><br>
+            </section>
+            <section class="bahasaProgram">
+                <span>Bahasa Pemrogrman yang dikuasai :</span>
+                <input type="checkbox" name="bahasaprogram" id="web" value="web">
+                <label for="web">Web</label>
+                <input type="checkbox" name="bahasaprogram" id="mobile" value="mobile">
+                <label for="mobile">MOBILE</label>
+                <input type="checkbox" name="bahasaprogram" id="dekstop" value="dekstop">
+                <label for="dekstop">DEKSTOP</label><br><br>
+            </section>
+            <section class="kotaAsal">
+                <label for="kotaAsal">Kota Asal :</label>
+                <select name="kotaAsal" id="kotaAsal">
+                  <option value="semarang">Semarang</option>
+                  <option value="sakarta">Jakarta</option>
+                  <option value="manado">Manado</option>
+                  <option value="palembang">Palembang</option>
+                  <option value="bali">Bali</option>
+                  <option value="banjarmasin">Banjarmasin</option>
+                </select>
+              </section>
+            <section class="jawaban">
+                <br>
+              <label for="jawaban">Apa yang Membuat Kami harus memilih Anda ? :</label>
+              <br>
+              <textarea id="jawaban" name="jawaban" rows="15" cols="60" placeholder="Tulis jawaban Anda disini"></textarea>
+            </section>
+            <section class="process">
+                <button>Process</button>
+            </section>
+        </fieldset>
+    </form>
+      
+</body>
+</html>
